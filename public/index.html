@@ -291,12 +291,29 @@
 		width: 140px !important;
 		height: 30px !important;
 	}
+	.title-size,
+	*[class~="title-size"] {
+		font-size: 23px !important;
+		line-height: 25px !important;
+	}
+
+	
+
+
+	
 	/* if class defined with *[class~=] then you can combine names i.e: class="px20 center"*/
 	
 	}
-	@media only screen and (max-width: 480px) {}
+	@media only screen and (max-width: 480px) {
+		.show-br,
+	*[class~="show-br"] {
+		display: block !important;
+	}
+	}
 	@media only screen and (max-width: 375px) {}
-	@media only screen and (max-width: 360px) {}
+	@media only screen and (max-width: 360px) {
+		
+	}
 	@media only screen and (max-width: 320px) {}
 	/* RESPONSIVE CLASSES */
 	</style>
@@ -372,8 +389,8 @@
 		<td style="border-collapse:collapse; -mso-line-height-rule: exactly; padding: 0px;" >			
 			<table cellspacing="0" cellpadding="0" border="0" width="100%" align="center" role="presentation" style="border-collapse:collapse; -mso-table-lspace: 0pt; -mso-table-rspace: 0pt;">
 				<tr>
-					<td align="center" style="padding:0 15px 20px 15px; font-size:34px; line-height:51px; color:#000000; text-transform: uppercase; font-family: Arial, Helvetica, sans-serif; border-collapse:collapse; -mso-line-height-rule: exactly;">
-						<strong>Celebrate our 30th Season with 30 Risk-Free Bets</strong>
+					<td align="center" class="title-size" style="padding:0 15px 20px 15px; font-size:34px; line-height:40px; color:#000000; text-transform: uppercase; font-family: Arial, Helvetica, sans-serif; border-collapse:collapse; -mso-line-height-rule: exactly;">
+						<strong>Celebrate our 30th Season with 30 <br class="show-br" style="display: none;"> Risk-Free Bets</strong>
 					</td>
 				</tr>
 			</table>
